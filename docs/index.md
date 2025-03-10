@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Will's site"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Will Place"
+  text: "Feel Discover Share"
+  tagline: "powered by vue vitepress and more is coming"
   actions:
     - theme: brand
       text: Markdown Examples
@@ -13,13 +13,4 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
