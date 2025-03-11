@@ -36,28 +36,27 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Network", link: "/network/network" },
+      // 下拉列表：
       {
-        text: "Examples",
+        text: "Think",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "学习的来源", link: "/think/学习的来源" },
         ],
       },
     ],
     sidebar: [
       {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-      {
         text: "Network", 
         items: [
           { text: "Network", link: "/network/network" },
         ]
-      }
+      },
+      {
+        text: "Think",
+        items: [
+          { text: "学习的来源", link: "/think/学习的来源" },
+        ],
+      },
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/sywc670" }],
