@@ -40,7 +40,7 @@ export default defineConfig({
       {
         text: "Think",
         items: [
-          { text: "学习的来源", link: "/think/学习的来源" },
+          { text: "学习路径", link: "/think/学习路径" },
         ],
       },
     ],
@@ -54,7 +54,7 @@ export default defineConfig({
       {
         text: "Think",
         items: [
-          { text: "学习的来源", link: "/think/学习的来源" },
+          { text: "学习路径", link: "/think/学习路径" },
         ],
       },
     ],
