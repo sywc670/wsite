@@ -60,9 +60,9 @@ export default defineConfig({
         socialLinks: [{ icon: "github", link: "https://github.com/sywc670" }],
         comment: {
             repo: "sywc670/wsite",
-            repoId: "xxx",
+            repoId: "R_kgDOOiEdDQ",
             category: "Announcements",
-            categoryId: "xxx",
+            categoryId: "DIC_kwDOOiEdDc4CpncF",
         },
     },
     // rewrites: {
