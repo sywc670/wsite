@@ -12,11 +12,8 @@ const { comment } = theme.value;
 
 <template>
     <Layout v-bind="$attrs">
-        <template
-            v-if="comment && frontmatter.comment !== false"
-            #doc-footer-before
-        >
-            <div>
+        <template v-if="comment && frontmatter.comment !== false" #doc-after>
+            <div class="doc-comments">
                 <Giscus
                     id="comments"
                     mapping="specific"
@@ -34,3 +31,12 @@ const { comment } = theme.value;
         </template>
     </Layout>
 </template>
+
+<style>
+.doc-comments {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    border-top: 1px solid var(--vp-c-divider);
+    padding-top: 24px;
+}
+</style>
