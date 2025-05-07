@@ -8,6 +8,9 @@
     "preview": "vitepress preview docs --host"
   },
   "dependencies": {
-    "@giscus/vue": "^3.1.1"
+    "@giscus/vue": "^3.1.1",
+    "@mdit-vue/shared": "^2.1.4",
+    "medium-zoom": "^1.1.0",
+    "sass": "^1.87.0"
   }
 }

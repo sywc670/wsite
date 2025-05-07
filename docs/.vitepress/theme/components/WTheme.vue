@@ -2,7 +2,7 @@
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import Giscus from "@giscus/vue";
-import { usePageId } from "../composables";
+import { usePageId } from "../../composables";
 
 const { isDark, frontmatter, theme } = useData();
 const { Layout } = DefaultTheme;
